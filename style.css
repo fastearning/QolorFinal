@@ -255,6 +255,7 @@ box-shadow: 7px 7px 0 0 rgb(92, 85, 85);
 }
 .features .features_info div h2{
     color:#16C95F;
+    font-size:20px;
 }
 .features .features_info div::after{
 position:absolute;
