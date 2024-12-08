@@ -162,20 +162,19 @@ width: 500px;
     
 }
 .main_content a{
-    height:50px;
+   height:50px;
     width:250px;
     margin-top:50px;
     color:white;
-    background:#195019;
-    border:2px solid rgb(255, 255, 255);
-    border-radius:10px;
-    font-size: 25px;
+    background:#16C95F;
+    border-radius:15px;
+    border: 2px solid rgba(94, 19, 19, 0.014);
+    font-size:23px;
     font-family:QolorBold;
     text-decoration:none;
-    line-height: 40px;
+    line-height:50px;
     animation: btn_shap 1s infinite;
-    transition: .3s ease-in-out;
-    box-shadow: 3px 3px 0 0 white;
+    transition: .3s ease-in-out;;
     
 }
 .download_btn:hover{
