@@ -45,6 +45,28 @@ window.addEventListener('scroll',show);
    
 }
 
+window.addEventListener('scroll',floatingbutton);
+ function floatingbutton(){
+  if(window.innerHeight>1500){
+    if(window.pageYOffset>700 && window.pageYOffset<1400){
+      floatbutton.style.position="fixed";
+
+    }
+    else{
+      floatbutton.style.position="initial";
+    }
+  }else{
+    if(window.pageYOffset>900 && window.pageYOffset<3500){
+      floatbutton.style.position="fixed";
+
+    }
+    else{
+      floatbutton.style.position="initial";
+    }
+  }  
+}
+
+
 let currentIndex = 0;
 
 function changeSlide(direction) {
