@@ -642,6 +642,42 @@ margin-bottom:10px;
         color:#0c582b;
     }
 
+ #floating_button{
+    width:100%;
+    height:200px;
+    background-color: #012529;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    bottom:0;
+    left:0;
+    z-index:3;
+  }
+
+  #floating_button h1{
+    width:100%;
+    text-align:center;
+    color:#16C95F;
+    margin-bottom:35px;
+    font-family: QolorBold;
+    font-size:25px;
+  }
+
+  #floating_button a{
+    width:200px;
+    text-align:center;
+    color:white;
+    margin-top:15px;
+    font-size:18px;
+    font-family:qolor;
+    background:#16C95F;
+    height:35px;
+    line-height:35px;
+    border-radius:10px;
+  }
+  
+
     .imgslider{
         height:fit-content;
     }
