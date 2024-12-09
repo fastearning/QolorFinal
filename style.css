@@ -162,23 +162,23 @@ width: 500px;
     
 }
 .main_content a{
-   height:50px;
+    height:45px;
     width:250px;
     margin-top:50px;
     color:white;
     background:#16C95F;
-    border-radius:15px;
-    border: 2px solid rgba(94, 19, 19, 0.014);
-    font-size:23px;
+    border-radius:12px;
+    border:3px solid white;
+    font-size:20px;
     font-family:QolorBold;
     text-decoration:none;
-    line-height:50px;
+    line-height:40px;
     animation: btn_shap 1s infinite;
-    transition: .3s ease-in-out;;
+    transition: .3s ease-in-out;
     
 }
 .download_btn:hover{
-    background:rgb(2, 53, 59);
+    background:#000201;
 }
 
 
@@ -368,7 +368,7 @@ border-radius:50%;
 .app_info .future_products div .fake_btn{
 height:30px;
 color:white;
-background:#0c582b;
+background:#16C95F;
 width:150px;
 font-size:18px;
 text-align:center;
@@ -641,42 +641,6 @@ margin-bottom:10px;
         color:#0c582b;
     }
 
- #floating_button{
-    width:100%;
-    height:200px;
-    background-color: #012529;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction: column;
-    bottom:0;
-    left:0;
-    z-index:3;
-  }
-
-  #floating_button h1{
-    width:100%;
-    text-align:center;
-    color:#16C95F;
-    margin-bottom:35px;
-    font-family: QolorBold;
-    font-size:25px;
-  }
-
-  #floating_button a{
-    width:200px;
-    text-align:center;
-    color:white;
-    margin-top:15px;
-    font-size:18px;
-    font-family:qolor;
-    background:#16C95F;
-    height:35px;
-    line-height:35px;
-    border-radius:10px;
-  }
-  
-
     .imgslider{
         height:fit-content;
     }
@@ -767,11 +731,11 @@ margin-bottom:10px;
   .slide .steps ul li{
     height:35px;
     width:100%;
-    font-size:20px;
+    font-size:18px;
     color:#16C95F;
     margin:20px;
     text-align:left;
-    font-family: Qolor;
+    font-family: Qolorbold;
     padding-left:30px;
     line-height:35px;
   }
@@ -803,7 +767,47 @@ margin-bottom:10px;
     right: 10px;
     cursor: pointer;
   }
+  #floating_button{
+    width:100%;
+    height:200px;
+    background-color: #012529;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    bottom:0;
+    left:0;
+    z-index:3;
+  }
+
+  #floating_button h1{
+    width:100%;
+    text-align:center;
+    color:#16C95F;
+    margin-bottom:35px;
+    font-family: QolorBold;
+    font-size:25px;
+  }
+
+  #floating_button a{
+    width:200px;
+    text-align:center;
+    color:white;
+    margin-top:15px;
+    font-size:18px;
+    font-family:qolor;
+    background:#16C95F;
+    height:35px;
+    line-height:35px;
+    border-radius:10px;
+  }
+
+  #floating_button a:hover{
+    background: #000201;
+  }
+
   
+
 
     @media(min-height:1280px){
         .content{
@@ -835,7 +839,7 @@ margin-bottom:10px;
           }
           .slide .steps ul li{
             height:25px;
-            font-size:20px;
+            font-size:15px;
           }
           .slide .steps p{
             text-align: center;
