@@ -347,7 +347,7 @@ width:100%;
         text-align: center;
     
       }
-      .slide .steps ul li{
+        .slide .steps ul li{
         height:25px;
         width:100%;
         font-size:15px;
@@ -368,7 +368,6 @@ width:100%;
         flex-direction: column;
         margin:0;
       }
-    
 }
 
 
