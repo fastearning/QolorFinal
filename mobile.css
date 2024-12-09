@@ -118,7 +118,6 @@
     .app_info .future_products div .fake_btn{
         height:40px;
         color:white;
-        background:#0c582b;
         width:200px;
         text-align:center;
         line-height: 40px;
@@ -356,6 +355,18 @@ width:100%;
         margin-bottom:20px;
         text-align:center;
         font-family: Qolor;
+      }
+      .slide .steps ul{
+        background:transparent;
+        height:fit-content;
+        width:60%;
+        color:blue;
+        list-style: none;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction: column;
+        margin:0;
       }
     
 }
